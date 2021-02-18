@@ -1,0 +1,32 @@
+\documentclass{chemlab}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{gensymb}
+
+\fancyhead[L,C, R]{}
+\fancyhead[C]{$author$}
+\fancyfoot[C]{\includegraphics[scale=0.15]{template_images/edouard-seal.png}}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{2pt}
+\renewcommand{\headheight}{15pt}
+\renewcommand{\footskip}{80pt}
+
+\pagestyle{fancy}
+
+\title{$title$}
+\subject{$subject$}
+\teacher{$teacher$}
+\author{$author$}
+\date{$date$}
+\begin{document}
+    \maketitle
+    $if(toc)$
+    \tableofcontents
+    $endif$
+    $body$
+\end{document}

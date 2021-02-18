@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../../../usr/local/texlive/2020/texmf-dist/tex/latex/custom/chemlab"
+		}
+	],
+	"settings": {
+		"latex-workshop.latex.recipe.default": "latexmk (lualatex)"
+	}
+}

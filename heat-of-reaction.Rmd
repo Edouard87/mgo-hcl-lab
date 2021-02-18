@@ -1,0 +1,55 @@
+---
+title: "Heat of Reaction Lab Report"
+author: "Edouard Des Parois Perrault"
+date: "18/02/2021"
+teacher: "Marguerite Comley"
+subject: "Chemistry"
+toc: true
+output: 
+  pdf_document:
+    template: "template.tex"
+    keep_tex: true
+    latex_engine: "lualatex"
+---
+
+# Is the Reaction Endothermic or Exothermic?
+
+The reaction is exothermic. \(\Delta H\) is therefore negative.
+
+# Data Table
+
+| **Data**      | **Value** |
+| :--          | :--:      |
+| Mass \ch{MgO} | 2.8054 \si{g} |
+| Initial Temperature (\textdegree C) | 25.01 |
+| Final Temperature (\textdegree C) | 46.33 |
+
+# Total Heat Released
+
+\begin{eqnarray}
+  Q_{env} & = & mc\Delta t \\
+          & = & 100 \cdot 4.18 \cdot 21.29 \\
+          & = & 8899.22~\si{J}
+\end{eqnarray}
+
+# Moles of \(MgO\)
+
+\begin{eqnarray}
+  n & = & \frac{m}{mm} \\
+    & = & \frac{2.0845}{40.304} \\
+    & = & 0.0517~\si{mol}
+\end{eqnarray}
+
+# Calculating \(\Delta H_{rxm}\)
+
+\begin{eqnarray}
+  \Delta H & = & -\frac{Q_{env}}{0.0517} \\
+           & = & -\frac{8899.22}{0.0517} \cdot \frac{1}{1000} \\
+           & = & 172.13 \si{kJ}
+\end{eqnarray}
+
+# Table of Results
+
+| **Mass of the Rxn Mixture** | **\(\Delta T\)**       | **Total Heat Released**            | **\si{mol} \ch{MgO}**    | **\(\frac{\Delta H_{rxn}}{\si{mol}}\)** |
+| :--:                    | :--:               | :--:                           | :--:            | :--:                          |
+| 100 \si{g}              | 21.3 \(\degree C\) | \(8.90 \cdot 10^3 \si{J}\)     | 0.0517 \si{mol} | -172 \si{kJ}                  |
